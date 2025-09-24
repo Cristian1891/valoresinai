@@ -3,6 +3,8 @@ import { useState } from "react";
 // Sección de Paquetes y Precios
 export const StudioPricingSection: React.FC = () => {
   const [selectedPlan, setSelectedPlan] = useState<string | null>(null);
+
+  console.log(selectedPlan);
   
   const plans = [
     {
