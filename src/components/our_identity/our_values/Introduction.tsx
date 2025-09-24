@@ -6,6 +6,8 @@ export const Introduction: React.FC = () => {
   const [darkMode, setDarkMode] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
+  console.log(scrollY);
+
   // Simulación de detección de modo oscuro
   useEffect(() => {
     const isDark = document.documentElement.classList.contains('dark');

@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 export const Footer: React.FC = () => {
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
 
+  console.log(isDarkMode);
+
   const { t } = useTranslation();
 
   // Verificar si estamos en modo oscuro (compartido con Navbar)

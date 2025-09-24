@@ -13,6 +13,11 @@ export const DonationFormSection: React.FC = () => {
   const [documentNumber, setDocumentNumber] = useState<string>('');
 
 
+  console.log(documentType);
+  console.log(setDocumentType);
+  console.log(documentNumber);
+  console.log(setDocumentNumber);
+
   const location = useLocation();
 
   // Programas disponibles para donación
@@ -44,6 +49,8 @@ export const DonationFormSection: React.FC = () => {
     { code: 'CEDULA', name: 'Cédula' },
     { code: 'OTHER', name: 'Otro' }
   ];
+
+  console.log(documentTypes);
 
   const predefinedAmounts = [
     { amount: '3000', label: '$3.000' },

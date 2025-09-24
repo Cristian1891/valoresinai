@@ -4,6 +4,8 @@ import { useState } from "react";
 export const QuinchoBookingSection: React.FC = () => {
 //   const { t } = useTranslation();
   const [selectedPackage, setSelectedPackage] = useState<string | null>(null);
+
+  console.log(selectedPackage);
   
   const packages = [
     {

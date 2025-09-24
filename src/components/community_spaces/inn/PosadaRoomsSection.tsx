@@ -3,6 +3,8 @@ import { useState } from "react";
 // Sección de Tipos de Habitaciones
 export const PosadaRoomsSection: React.FC = () => {
   const [selectedRoom, setSelectedRoom] = useState<string | null>(null);
+
+  console.log(selectedRoom);
   
   const roomTypes = [
     {

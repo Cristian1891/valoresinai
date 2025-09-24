@@ -3,6 +3,8 @@ import { useTranslation } from 'react-i18next';
 export const Purpose: React.FC = () => {
   const { t } = useTranslation();
 
+  console.log(t);
+
   return (
     <section className="py-12 px-4 bg-white dark:bg-[var(--color-dark)] transition-colors duration-300">
       <div className="max-w-7xl mx-auto">

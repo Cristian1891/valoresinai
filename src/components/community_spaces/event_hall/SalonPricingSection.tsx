@@ -3,6 +3,9 @@ import { useState } from "react";
 // Sección de Precios y Cotizaciones
 export const SalonPricingSection: React.FC = () => {
   const [selectedService, setSelectedService] = useState<string>('basico');
+
+  console.log(selectedService);
+  console.log(setSelectedService);
   
   const pricingTiers = [
     {
